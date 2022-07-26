@@ -15,6 +15,7 @@ namespace lab4windowsform
         public string Obj_name { get; set; }
         public int Count { get; set; }
         public double Price { get; set; }
+        public Boolean isAvailable { get; set; }
         public void save()
         {
             list.Add(this);

@@ -12,7 +12,7 @@ namespace lab4windowsform
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        public Form1(String name)
         {
             InitializeComponent();
         }
@@ -63,7 +63,8 @@ namespace lab4windowsform
                         Inv_Num = int.Parse(inventoryNumBox.Text),
                         Obj_name = objectNameBox.Text,
                         Count = int.Parse(countBox.Text),
-                        Price = double.Parse(priceBox.Text)
+                        Price = double.Parse(priceBox.Text),
+                        isAvailable = (checkBox1.Checked)
                     };
                     p.save();
                     dataGridView1.DataSource = null;
@@ -79,6 +80,37 @@ namespace lab4windowsform
         private void cancelBtn_Click(object sender, EventArgs e)
         {
             System.Environment.Exit(0);
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String checkeditem = "";
+            if (checkBox1.Checked)
+            {
+                foreach (var item in checkedListBox1.Items)
+                {
+                    checkeditem += item.ToString()+" ";  
+                }
+
+            }
+            
+            
+            MessageBox.Show(checkeditem);
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
