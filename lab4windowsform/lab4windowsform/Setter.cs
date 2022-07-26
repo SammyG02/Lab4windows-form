@@ -8,7 +8,7 @@ namespace lab4windowsform
 {
     internal class Setter
     {
-        static private List<Setter> l = new List<Setter>();
+        static private List<Setter> list = new List<Setter>();
         public int Number { get; set; }
         public string Date { get; set; }
         public int Inv_Num { get; set; }
@@ -17,11 +17,11 @@ namespace lab4windowsform
         public double Price { get; set; }
         public void save()
         {
-            l.Add(this);
+            list.Add(this);
         }
         static public List<Setter> GetAllProducts()
         {
-            return l;
+            return list;
         }
     }
 }

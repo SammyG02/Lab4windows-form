@@ -30,7 +30,7 @@ namespace lab4windowsform
         private void addBtn_Click(object sender, EventArgs e)
         {
             errorProvider1.Clear();
-            //Regex r = new Regex(@"^([^0-9]*)$");
+          
             if (string.IsNullOrEmpty(numberBox.Text))
             {
                 errorProvider1.SetError(numberBox, "Number is required");
@@ -51,11 +51,7 @@ namespace lab4windowsform
             {
                 errorProvider1.SetError(priceBox, "Price is required");
             }
-           /* else if (!r.IsMatch(objectNameBox.Text))
-           {
-               errorProvider1.SetError(objectNameBox, "String should not have numbers.");
-            }
-           */
+         
             else
             {
                 try
