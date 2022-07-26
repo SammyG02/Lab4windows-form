@@ -26,5 +26,63 @@ namespace lab4windowsform
         {
 
         }
+
+        private void addBtn_Click(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+            //Regex r = new Regex(@"^([^0-9]*)$");
+            if (string.IsNullOrEmpty(numberBox.Text))
+            {
+                errorProvider1.SetError(numberBox, "Number is required");
+            }
+            else if (string.IsNullOrEmpty(inventoryNumBox.Text))
+            {
+                errorProvider1.SetError(inventoryNumBox, "Inventory Number is required");
+            }
+            else if (string.IsNullOrEmpty(objectNameBox.Text))
+            {
+                errorProvider1.SetError(objectNameBox, "Object name is required");
+            }
+            else if (string.IsNullOrEmpty(countBox.Text))
+            {
+                errorProvider1.SetError(countBox, "Count is required");
+            }
+            else if (string.IsNullOrEmpty(priceBox.Text))
+            {
+                errorProvider1.SetError(priceBox, "Price is required");
+            }
+           /* else if (!r.IsMatch(objectNameBox.Text))
+           {
+               errorProvider1.SetError(objectNameBox, "String should not have numbers.");
+            }
+           */
+            else
+            {
+                try
+                {
+                    Setter p = new Setter
+                    {
+                        Number = int.Parse(numberBox.Text),
+                        Date = dateBox.Text,
+                        Inv_Num = int.Parse(inventoryNumBox.Text),
+                        Obj_name = objectNameBox.Text,
+                        Count = int.Parse(countBox.Text),
+                        Price = double.Parse(priceBox.Text)
+                    };
+                    p.save();
+                    dataGridView1.DataSource = null;
+                    dataGridView1.DataSource = Setter.GetAllProducts();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Type mismatch");
+                };
+            }
+        }
+
+        private void cancelBtn_Click(object sender, EventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
     }
 }
