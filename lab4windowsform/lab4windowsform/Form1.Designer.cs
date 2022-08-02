@@ -29,7 +29,6 @@
         private void InitializeComponent()
 
         {
-            
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -56,7 +55,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.user = new System.Windows.Forms.Label();
+            this.name1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -297,21 +296,22 @@
             this.radioButton4.Text = "radioButton4";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
-            // user
+            // name1
             // 
-            this.user.AutoSize = true;
-            this.user.Location = new System.Drawing.Point(2, 16);
-            this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(82, 20);
-            this.user.TabIndex = 22;
-            this.user.Text = "somebody";
+            this.name1.AutoSize = true;
+            this.name1.Location = new System.Drawing.Point(-1, 1);
+            this.name1.Name = "name1";
+            this.name1.Size = new System.Drawing.Size(83, 20);
+            this.name1.TabIndex = 22;
+            this.name1.Text = "Welcome, ";
+            this.name1.Click += new System.EventHandler(this.name1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1217, 564);
-            this.Controls.Add(this.user);
+            this.Controls.Add(this.name1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
@@ -332,7 +332,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
@@ -372,7 +374,7 @@
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label user;
+        private System.Windows.Forms.Label name1;
     }
 }
 

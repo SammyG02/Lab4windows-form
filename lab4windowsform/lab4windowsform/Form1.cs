@@ -12,9 +12,11 @@ namespace lab4windowsform
 {
     public partial class Form1 : Form
     {
-        public Form1(String name)
+        public Form1()
         {
             InitializeComponent();
+            
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -111,6 +113,11 @@ namespace lab4windowsform
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void name1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

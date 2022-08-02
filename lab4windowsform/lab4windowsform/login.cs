@@ -19,12 +19,14 @@ namespace lab4windowsform
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+
             String username = textBox1.Text;
             String password = textBox2.Text;
             if ((textBox1.Text == textBox2.Text) && (textBox1.Text)== "Admin")
             {
                 
-                Form1 screen = new Form1(username);
+                Form1 screen = new Form1();
                 screen.Show();
                 this.Hide();
 

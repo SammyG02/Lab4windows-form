@@ -1,12 +1,12 @@
+C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\bin\Debug\lab4windowsform.exe
+C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\bin\Debug\lab4windowsform.exe.config
 C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.csproj.AssemblyReference.cache
 C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.csproj.SuggestedBindingRedirects.cache
 C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.Form1.resources
+C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.login.resources
+C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.MainWindow.resources
 C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.Properties.Resources.resources
 C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.csproj.GenerateResource.cache
 C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.csproj.CoreCompileInputs.cache
-C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\bin\Debug\lab4windowsform.exe.config
-C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\bin\Debug\lab4windowsform.exe
-C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\bin\Debug\lab4windowsform.pdb
 C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.exe
 C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.pdb
-C:\Users\Samuel\Desktop\1 Term\Windows Programming\assignments\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Debug\lab4windowsform.login.resources
