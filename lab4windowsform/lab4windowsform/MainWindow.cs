@@ -47,5 +47,34 @@ namespace lab4windowsform
 
 
         }
+
+        private void updateProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild != null)
+            {
+
+                ActiveMdiChild.Close();
+
+
+            }
+            UpdateProductPage updatePage = new UpdateProductPage();
+            updatePage.MdiParent = this;
+            updatePage.Show();
+        }
+
+        private void displayProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild != null)
+            {
+
+                ActiveMdiChild.Close();
+
+
+            }
+            DisplayProductsPage displayPage = new DisplayProductsPage();
+            displayPage.MdiParent = this;
+            displayPage.Show();
+
+        }
     }
 }

@@ -76,12 +76,14 @@
             this.updateProductToolStripMenuItem.Name = "updateProductToolStripMenuItem";
             this.updateProductToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.updateProductToolStripMenuItem.Text = "Update product";
+            this.updateProductToolStripMenuItem.Click += new System.EventHandler(this.updateProductToolStripMenuItem_Click);
             // 
             // displayProductToolStripMenuItem
             // 
             this.displayProductToolStripMenuItem.Name = "displayProductToolStripMenuItem";
             this.displayProductToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.displayProductToolStripMenuItem.Text = "Display product";
+            this.displayProductToolStripMenuItem.Click += new System.EventHandler(this.displayProductToolStripMenuItem_Click);
             // 
             // catagoryToolStripMenuItem
             // 
