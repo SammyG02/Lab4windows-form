@@ -75,7 +75,7 @@
             // 
             this.updateProductToolStripMenuItem.Name = "updateProductToolStripMenuItem";
             this.updateProductToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.updateProductToolStripMenuItem.Text = "Update product";
+            this.updateProductToolStripMenuItem.Text = "Search product";
             this.updateProductToolStripMenuItem.Click += new System.EventHandler(this.updateProductToolStripMenuItem_Click);
             // 
             // displayProductToolStripMenuItem
@@ -97,13 +97,13 @@
             // addCategoryToolStripMenuItem
             // 
             this.addCategoryToolStripMenuItem.Name = "addCategoryToolStripMenuItem";
-            this.addCategoryToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.addCategoryToolStripMenuItem.Size = new System.Drawing.Size(254, 34);
             this.addCategoryToolStripMenuItem.Text = "Add Category";
             // 
             // updateCategoryToolStripMenuItem
             // 
             this.updateCategoryToolStripMenuItem.Name = "updateCategoryToolStripMenuItem";
-            this.updateCategoryToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.updateCategoryToolStripMenuItem.Size = new System.Drawing.Size(254, 34);
             this.updateCategoryToolStripMenuItem.Text = "Update Category ";
             // 
             // MainWindow

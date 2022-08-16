@@ -37,7 +37,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.numberBox = new System.Windows.Forms.TextBox();
-            this.dateBox = new System.Windows.Forms.TextBox();
             this.inventoryNumBox = new System.Windows.Forms.TextBox();
             this.objectNameBox = new System.Windows.Forms.TextBox();
             this.countBox = new System.Windows.Forms.TextBox();
@@ -56,6 +55,7 @@
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.name1 = new System.Windows.Forms.Label();
+            this.dtp = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -124,13 +124,6 @@
             this.numberBox.Name = "numberBox";
             this.numberBox.Size = new System.Drawing.Size(127, 26);
             this.numberBox.TabIndex = 6;
-            // 
-            // dateBox
-            // 
-            this.dateBox.Location = new System.Drawing.Point(262, 61);
-            this.dateBox.Name = "dateBox";
-            this.dateBox.Size = new System.Drawing.Size(180, 26);
-            this.dateBox.TabIndex = 7;
             // 
             // inventoryNumBox
             // 
@@ -239,7 +232,6 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "radioButton1";
             this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -304,13 +296,20 @@
             this.name1.Size = new System.Drawing.Size(83, 20);
             this.name1.TabIndex = 22;
             this.name1.Text = "Welcome, ";
-            this.name1.Click += new System.EventHandler(this.name1_Click);
+            // 
+            // dtp
+            // 
+            this.dtp.Location = new System.Drawing.Point(262, 60);
+            this.dtp.Name = "dtp";
+            this.dtp.Size = new System.Drawing.Size(200, 26);
+            this.dtp.TabIndex = 23;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1217, 564);
+            this.Controls.Add(this.dtp);
             this.Controls.Add(this.name1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -324,7 +323,6 @@
             this.Controls.Add(this.countBox);
             this.Controls.Add(this.objectNameBox);
             this.Controls.Add(this.inventoryNumBox);
-            this.Controls.Add(this.dateBox);
             this.Controls.Add(this.numberBox);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -356,7 +354,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox numberBox;
-        private System.Windows.Forms.TextBox dateBox;
         private System.Windows.Forms.TextBox inventoryNumBox;
         private System.Windows.Forms.TextBox objectNameBox;
         private System.Windows.Forms.TextBox countBox;
@@ -375,6 +372,7 @@
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label name1;
+        private System.Windows.Forms.DateTimePicker dtp;
     }
 }
 

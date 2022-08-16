@@ -24,5 +24,14 @@ namespace lab4windowsform
         {
             return list;
         }
+        public static Setter findOne(string name)
+        {
+            return list.Find(list => list.Obj_name == name);
+        }
+
+
+
+
     }
-}
+ }
+

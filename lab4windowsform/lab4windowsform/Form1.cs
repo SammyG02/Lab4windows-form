@@ -61,7 +61,7 @@ namespace lab4windowsform
                     Setter p = new Setter
                     {
                         Number = int.Parse(numberBox.Text),
-                        Date = dateBox.Text,
+                        Date = dtp.Text,
                         Inv_Num = int.Parse(inventoryNumBox.Text),
                         Obj_name = objectNameBox.Text,
                         Count = int.Parse(countBox.Text),
@@ -105,19 +105,8 @@ namespace lab4windowsform
                 }
 
             }
-            
-            
             MessageBox.Show(checkeditem);
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void name1_Click(object sender, EventArgs e)
-        {
-            
-        }
     }
 }
