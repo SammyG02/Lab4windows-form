@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace lab4windowsform
 {
-    public partial class UpdateProductPage : Form
+    public partial class SearchProductPage : Form
     {
-        public UpdateProductPage()
+        public SearchProductPage()
         {
             InitializeComponent();
         }

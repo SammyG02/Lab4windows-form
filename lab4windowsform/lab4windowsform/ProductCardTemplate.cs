@@ -42,18 +42,18 @@ namespace lab4windowsform
             set { myVar = value; label4.Text = value.ToString(); }
         }
 
-        private int propCount;
-        public int _propCount
+        private int _propCount;
+        public int propCount
         {
-            get { return propCount; }
-            set { propCount = value; label5.Text = value.ToString(); }
+            get { return _propCount; }
+            set { _propCount = value; label5.Text = value.ToString(); }
         }
-        private double propPrice;
+        private double _propPrice;
 
-        public double _propPrice
+        public double propPrice
         {
-            get { return propPrice; }
-            set { propPrice = value; label6.Text = value.ToString(); }
+            get { return _propPrice; }
+            set { _propPrice = value; label6.Text = value.ToString(); }
         }
 
 

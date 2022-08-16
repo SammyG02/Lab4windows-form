@@ -57,7 +57,7 @@ namespace lab4windowsform
 
 
             }
-            UpdateProductPage updatePage = new UpdateProductPage();
+            SearchProductPage updatePage = new SearchProductPage();
             updatePage.MdiParent = this;
             updatePage.Show();
         }

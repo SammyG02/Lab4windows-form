@@ -24,7 +24,6 @@ C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsfor
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.MainWindow.resources
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.ProductCardTemplate.resources
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.Properties.Resources.resources
-C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.UpdateProductPage.resources
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.csproj.GenerateResource.cache
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.csproj.CoreCompileInputs.cache
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\bin\Release\lab4windowsform.exe.config
@@ -32,3 +31,5 @@ C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsfor
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\bin\Release\lab4windowsform.pdb
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.exe
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.pdb
+C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.SearchProductPage.resources
+C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.Table.resources

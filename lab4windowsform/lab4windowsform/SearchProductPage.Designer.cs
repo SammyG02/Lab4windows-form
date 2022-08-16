@@ -1,6 +1,6 @@
 ﻿namespace lab4windowsform
 {
-    partial class UpdateProductPage
+    partial class SearchProductPage
     {
         /// <summary>
         /// Required designer variable.
@@ -34,9 +34,9 @@
             // 
             // searchBtn
             // 
-            this.searchBtn.Location = new System.Drawing.Point(321, 29);
+            this.searchBtn.Location = new System.Drawing.Point(321, 25);
             this.searchBtn.Name = "searchBtn";
-            this.searchBtn.Size = new System.Drawing.Size(86, 26);
+            this.searchBtn.Size = new System.Drawing.Size(86, 35);
             this.searchBtn.TabIndex = 0;
             this.searchBtn.Text = "Search";
             this.searchBtn.UseVisualStyleBackColor = true;

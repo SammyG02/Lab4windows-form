@@ -26,7 +26,7 @@ namespace lab4windowsform
             if ((textBox1.Text == textBox2.Text) && (textBox1.Text)== "Admin")
             {
                 
-                Form1 screen = new Form1();
+                MainWindow screen = new MainWindow();
                 screen.Show();
                 this.Hide();
 
