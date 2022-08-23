@@ -30,11 +30,15 @@ namespace lab4windowsform
                 productCard.propPrice = item.Price;
                 productCard.Click += (object o, EventArgs ea) =>
                 {
-                    MessageBox.Show(item.Obj_name+'\n'+item.Number.ToString()+
+                   DetailsPage dp = new DetailsPage(item.Number, item.Date, item.Inv_Num, item.Obj_name, item.Count, item.Price);
+                    dp.Show();
+                    
+                   /* MessageBox.Show(item.Obj_name+'\n'+item.Number.ToString()+
                         '\n' + item.Inv_Num.ToString() + '\n' + item.Date+
                         '\n' + item.Price.ToString() +
                         '\n' + item.Count.ToString() +
                         '\n' + item.isAvailable.ToString());
+                   */
                     
                 };
                 flowLayoutPanel1.Controls.Add(productCard);

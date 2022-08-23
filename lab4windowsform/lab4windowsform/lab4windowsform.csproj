@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DetailsPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailsPage.Designer.cs">
+      <DependentUpon>DetailsPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="DisplayProductsPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,12 +97,9 @@
     <Compile Include="SearchProductPage.Designer.cs">
       <DependentUpon>SearchProductPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Table.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Table.Designer.cs">
-      <DependentUpon>Table.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="DetailsPage.resx">
+      <DependentUpon>DetailsPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DisplayProductsPage.resx">
       <DependentUpon>DisplayProductsPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,9 +129,6 @@
     </Compile>
     <EmbeddedResource Include="SearchProductPage.resx">
       <DependentUpon>SearchProductPage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Table.resx">
-      <DependentUpon>Table.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
