@@ -58,7 +58,7 @@ namespace lab4windowsform
             {
                 try
                 {
-                    Setter p = new Setter
+                    Product p = new Product
                     {
                         Number = int.Parse(numberBox.Text),
                         Date = dtp.Text,
@@ -70,7 +70,7 @@ namespace lab4windowsform
                     };
                     p.save();
                     dataGridView1.DataSource = null;
-                    dataGridView1.DataSource = Setter.GetAllProducts();
+                    dataGridView1.DataSource = Product.GetAllProducts();
                 }
                 catch (Exception)
                 {

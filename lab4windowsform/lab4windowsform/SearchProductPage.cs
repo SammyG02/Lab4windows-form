@@ -19,7 +19,7 @@ namespace lab4windowsform
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var pro = Setter.findOne(textBox1.Text);
+            var pro = Product.findOne(textBox1.Text);
             if (pro == null)
             {
                 MessageBox.Show("Not Found!");

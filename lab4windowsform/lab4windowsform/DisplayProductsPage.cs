@@ -19,7 +19,7 @@ namespace lab4windowsform
 
         private void DisplayProductsPage_Load(object sender, EventArgs e)
         {
-            foreach (var item in Setter.GetAllProducts())
+            foreach (var item in Product.GetAllProducts())
             {
                 ProductCardTemplate productCard = new ProductCardTemplate();
                 productCard.propNum = item.Number;
@@ -33,16 +33,21 @@ namespace lab4windowsform
                    DetailsPage dp = new DetailsPage(item.Number, item.Date, item.Inv_Num, item.Obj_name, item.Count, item.Price);
                     dp.Show();
                     
-                   /* MessageBox.Show(item.Obj_name+'\n'+item.Number.ToString()+
+                    MessageBox.Show(item.Obj_name+'\n'+item.Number.ToString()+
                         '\n' + item.Inv_Num.ToString() + '\n' + item.Date+
                         '\n' + item.Price.ToString() +
                         '\n' + item.Count.ToString() +
                         '\n' + item.isAvailable.ToString());
-                   */
+                   
                     
                 };
                 flowLayoutPanel1.Controls.Add(productCard);
             }
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

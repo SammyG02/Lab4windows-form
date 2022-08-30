@@ -48,7 +48,7 @@ namespace lab4windowsform
 
         private void formWithPanel_Load(object sender, EventArgs e)
         {
-            foreach (var item in Setter.GetAllProducts())
+            foreach (var item in Product.GetAllProducts())
             {
                 ProductCardTemplate p = new ProductCardTemplate();
               //  p.propLabel1 = item;

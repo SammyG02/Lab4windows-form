@@ -33,3 +33,4 @@ C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsfor
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.pdb
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.SearchProductPage.resources
 C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.DetailsPage.resources
+C:\Users\Samuel\Documents\GitHub\Lab4windows-form\lab4windowsform\lab4windowsform\obj\Release\lab4windowsform.Data.resources
